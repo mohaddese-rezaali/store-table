@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ALLIS</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+  <style>
+    #img1 {
+      height: 70px;
+      width: 70px;
+    }
+    #img2 {
+      height: 70px;
+      width: 70px;
+    }
+    #img3 {
+      height: 70px;
+      width: 70px;
+    }
+    #img4 {
+      height: 70px;
+      width: 70px;
+    }
+    #img5 {
+      height: 70px;
+      width: 70px;
+    }
+    .gray {
+      color: rgb(119, 116, 116);
+    }
+    #table {
+      height: 550px;
+      width: 850px;
+      margin: 30px;
+    }
+    #yello {
+      color: rgb(168, 255, 251);
+      background-color: rgb(41, 133, 150);
+      text-align: center;
+      height: 55px;
+      width: 790px;
+      margin: 50px;
+      text-shadow: 1px 1px rgb(7, 7, 7);
+    }
+    #number {
+      width: 50px;
+      background-color: rgb(166, 241, 172);
+    }
+    #center {
+      text-align: center;
+    }
+    #hover:hover {
+      background-color: rgb(255, 165, 165);
+    }
+
+    td {
+      text-align: center;
+    }
+    button{
+      color: red;
+      background-color: #ffff;
+    }
+  </style>
+  <body>
+    <h1 id="yello">♥ ALLIS STORY ♥</h1>
+    <table border="1" id="table">
+      <thead>
+        <td colspan="3" id="Product">Product</td>
+        <td id="Price">Price</td>
+        <td>Quantity</td>
+        <td >total</td>
+        <td></td>
+      </thead>
+      <tr id="hover">
+        <form action="">
+        <td><input type="checkbox" /></td>
+        <td><img src="pencilcase_black.jpg" alt="pencilcase" id="img1" /></td>
+        <td>
+          <h5 id="center">pencilcase_black</h5>
+          <h6 class="gray" id="center">to organize the pencils</h6>
+        </td>
+        <td>44.99$</td>
+        <td><input type="number" id="number" /></td>
+        <td></td>
+        <td><button type="reset" ><i class="glyphicon glyphicon-remove"></i></button></td>
+      </form>
+      </tr>
+      <tr id="hover">
+        <form action="">
+        <td>
+          <input type="checkbox" />
+        </td>
+        <td><img src="pen_black.jpg" alt="pen" id="img2" /></td>
+        <td>
+          <h5 id="center">pen_black</h5>
+          <h6 class="gray" id="center">to write everything</h6>
+        </td>
+        <td>2.96$</td>
+        <td>
+          <center><input type="number" id="number" /></center>
+        </td>
+        <td></td>
+        <td><button type="reset"><i class="glyphicon glyphicon-remove"></i></button></td>
+      </tr>
+      <tr id="hover">
+        <form action="">
+        <td>
+          <input type="checkbox" />
+        </td>
+        <td><img src="notebook_black.jpg" alt="notebook" id="img3" /></td>
+        <td>
+          <h5 id="center">notebook_black</h5>
+          <h6 class="gray" id="center">to write everyday notes</h6>
+        </td>
+        <td>12.36$</td>
+        <td><input type="number" id="number" /></td>
+        <td></td>
+        <td><button type="reset"><i class="glyphicon glyphicon-remove"></i></button></td>
+      </form>
+      </tr>
+      <tr id="hover">
+        <form action="">
+        <td>
+          <input type="checkbox" id="checkbox" />
+        </td>
+        <td><img src="eraser_black.jpg" alt="eraser" id="img4" /></td>
+        <td>
+          <h5 id="center">eraser_black</h5>
+          <h6 class="gray" id="center">to erase mistakes</h6>
+        </td>
+        <td>5.11$</td>
+        <td><input type="number" id="number" /></td>
+        <td></td>
+        <td><button type="reset"><i class="glyphicon glyphicon-remove"></i></button></td>
+     </form> 
+    </tr>
+      <tr id="hover">
+        <form action="" oninput="x.value=parseInt(a.value)*parseInt(number.value)"></form> >
+        <td>
+          <input type="checkbox" />
+        </td>
+        <td><img src="ruler_black.jpg" alt="ruler" id="img5" /></td>
+        <td>
+          <h5 id="center">ruler_black</h5>
+          <h6 class="gray" id="center">to draw straight lines</h6>
+        </td>
+        <td id="text-align"><h6 id="a">8.96$</h6></td>
+        <td><input type="number" id="number" value="25" /></td>
+        <td> <input type="range" id="a" value="50"> <output name="x" for="a number"></output></td>
+        <td><button type="reset"><i class="glyphicon glyphicon-remove"></i></button></td>
+      </form>
+      </tr>
+    </table>
+  </body>
+</html>
